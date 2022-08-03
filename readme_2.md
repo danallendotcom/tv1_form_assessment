@@ -14,3 +14,11 @@ And here we go.
 ======================================
 
 Verified this repo has no directories or files matching names in the repo about to dumped in here.  .git and .gitignore have been removed from the file set on its way in here.
+
+
+Got this error
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/danallendotcom/tv1_form_assessment.git'
+
+Leaving 'master' off end of command works the way I need.
