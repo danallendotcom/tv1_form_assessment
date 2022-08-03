@@ -102,3 +102,11 @@ Changes to be committed:
 delete of test files as expected.
 
 Cloning tv1 repo into another directory then will copy into here and then do the project
+
+--------------------------------
+
+files from tv1 now copied into this repo.  Ready to start project.
+
+Adjusted permissions for my server, and away we go.
+
+END OF FILE
