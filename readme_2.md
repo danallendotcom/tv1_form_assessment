@@ -22,3 +22,38 @@ error: src refspec master does not match any
 error: failed to push some refs to 'https://github.com/danallendotcom/tv1_form_assessment.git'
 
 Leaving 'master' off end of command works the way I need.
+
+
+==========================================================
+
+
+The minor file flood worked ok...add, committing, and pushing to origin.
+
+Then will delete it all and pull in copies of the files from the tv1 repo.  Will not clone into this directory, because I am pushing the changes to my own repo on github.  I am sure there is amore efficient way of doing this, this is a hack for today.
+
+git status
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .travis.yml
+	new file:   CONTRIBUTING.md
+	new file:   LICENSE
+	new file:   README_dummy_repo.md
+	new file:   composer.json
+	new file:   examples/example-captcha.php
+	new file:   phpunit.xml.dist
+	modified:   readme_2.md
+	new file:   src/ReCaptcha/ReCaptcha.php
+	new file:   src/ReCaptcha/RequestMethod.php
+	new file:   src/ReCaptcha/RequestMethod/Curl.php
+	new file:   src/ReCaptcha/RequestMethod/Post.php
+	new file:   src/ReCaptcha/RequestMethod/Socket.php
+	new file:   src/ReCaptcha/RequestMethod/SocketPost.php
+	new file:   src/ReCaptcha/RequestParameters.php
+	new file:   src/ReCaptcha/Response.php
+	new file:   src/autoload.php
+	new file:   tests/ReCaptcha/ReCaptchaTest.php
+	new file:   tests/ReCaptcha/RequestMethod/PostTest.php
+	new file:   tests/ReCaptcha/RequestMethod/SocketPostTest.php
+	new file:   tests/ReCaptcha/RequestParametersTest.php
+	new file:   tests/ReCaptcha/ResponseTest.php
