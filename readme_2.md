@@ -9,3 +9,8 @@ Steps so far:
 4.  Overall, this is a jumbled scene extremely reminiscent of the Microsoft Way when Bill Gates was in the throes of putting Windows together from about 1991 through the release of Windows XP in late 2000.  The connection to Microsoft is mentioned in the GitHub documentation of the process of setting up this security.
 
 And here we go.
+
+
+======================================
+
+Verified this repo has no directories or files matching names in the repo about to dumped in here.  .git and .gitignore have been removed from the file set on its way in here.
