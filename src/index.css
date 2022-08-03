@@ -8,27 +8,35 @@ body.reacttest {
 	background-image:url('images/bg-intro-desktop.png');
 	background-color:hsl(0, 100%, 74%);
 	line-height:24px;
-
-
-
 }
 
+.border{
+	border:2px solid #000;
+}
+.border_red{
+	border:3px solid rgb(255,0,0);
+}
+
+.border_green{
+	border:3px solid rgb(0,255,0);
+}
+
+.border_blue{
+	border:3px solid rgb(0,0,255);
+}
 
 .row {
   display: flex;
   max-width:1440px;
   color:#fff;
-
 }
+
 .col {
 	flex:1;
 	height:800px;
 	position:relative;
 	float:left;
 }
-
-
-
 
 .left_payload{
 	margin-left:30px;
@@ -38,6 +46,7 @@ body.reacttest {
 	max-width:500px;
 	padding:0;
 }
+
 .right_payload{
 	position: absolute;
    top: 50%;
@@ -46,6 +55,7 @@ body.reacttest {
 	max-width:540px;
 	width:100%;
 }
+
 .tryitfree_div{
 	margin:0 0 20px;
 	padding-top:12px;
@@ -54,7 +64,6 @@ body.reacttest {
 	box-shadow:0px 5px 0px rgba(0,0,0,0.3);
 	width:100%;
 }
-
 
 h1.reacttest{
 	font-size:45px;
@@ -67,6 +76,7 @@ h1.reacttest{
 .centertext {
   text-align: center;
 }
+
 .red_background{
 	background-color:hsl(0, 100%, 74%);
 }
@@ -82,12 +92,15 @@ h1.reacttest{
 	cursor:pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 699px) {
 	body.reacttest{
 		background:none;
 	}
+
 	.row {
      display: block;
+	  width:375px;
+	  margin: 0 auto;
 
    }
 
@@ -130,6 +143,7 @@ h1.reacttest{
 		padding:0 30px;
 		font-size:18px;
 	}
+
 	.right_payload{
 		position: static;
 	   top: 0px;
@@ -138,6 +152,7 @@ h1.reacttest{
 		max-width:375px;
 		width:100%;
 	}
+
 	.tryitfree_div{
 		margin:0 0 20px;
 		padding:12px 70px;
@@ -149,7 +164,7 @@ h1.reacttest{
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
 
 	.left_payload{
 		margin-left:100px;
@@ -159,7 +174,7 @@ h1.reacttest{
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
 
 	.left_payload{
 		margin-left:165px;
